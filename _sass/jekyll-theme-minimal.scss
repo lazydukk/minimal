@@ -2,15 +2,15 @@
 @import "rouge-github";
 
 body {
-  background-color: #101020;
+  background-color: #0b0b18;
   padding:50px;
   font: 14px/1.5 "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#ffffff;
+  color:#D3F3EE;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#5465ff;
+  color:#1F35FF;
   margin:0 0 20px;
 }
 
@@ -27,32 +27,35 @@ h1 {
 }
 
 h2 {
-  color:#6877ff;
+  color:#475AFF;
+}
+h3 {
+  color: #707EFF
 }
 
-h3, h4, h5, h6 {
-  color:#9bb1ff;
+h4, h5, h6 {
+  color:#8591FF;
 }
 
 a {
-  color:#32ff6f;
+  color:#E00022;
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:#09ff00;
+  color:#E90C2A;
   font-weight: bold;
 }
 
 a small {
   font-size:11px;
-  color:#777;
+  color:#E00022;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color:#E00022;
 }
 
 .wrapper {
@@ -61,25 +64,32 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:3.5px solid #5757B2;
   margin:0;
   padding:0 0 0 20px;
-  font-style:italic;
+  font-family: 'Roboto Mono', monospace;
+  font-style: italic;
 }
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#ffc6ff;
+  color:#8DFF70;
 }
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;
+  background: #0B0B18;
+  background-color: #2D2D62;
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:1px solid #0B0B18;
   overflow-x: auto;
 }
 
+.highlight {
+  background-color: #202046;
+  border-radius: 10px;
+  border-style: none;
+}
 table {
   width:100%;
   border-collapse:collapse;
@@ -88,16 +98,17 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1.5px solid #2D2D62;
+  border-radius: 50px;
 }
 
 dt {
-  color:#444;
+  color:#9D9DD2;
   font-weight:700;
 }
 
 th {
-  color:#444;
+  color:#9D9DD2;
 }
 
 img {
@@ -105,12 +116,13 @@ img {
 }
 
 kbd {
-  background-color: #fafbfc;
+  background: #0b0b18;
+  background-color: #0362c0;
   border: 1px solid #c6cbd1;
   border-bottom-color: #959da5;
   border-radius: 3px;
   box-shadow: inset 0 -1px 0 #959da5;
-  color: #444d56;
+  color: #0b64bd;
   display: inline-block;
   font-size: 11px;
   line-height: 10px;
@@ -170,7 +182,7 @@ ul.downloads {
 }
 
 strong {
-  color:#222;
+  color:#5757B2;
   font-weight:700;
 }
 
@@ -197,8 +209,9 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
-  height:1px;
+  background:#333371;
+  height:2px;
+  border-radius: 50px;
   margin:0 0 20px;
 }
 
