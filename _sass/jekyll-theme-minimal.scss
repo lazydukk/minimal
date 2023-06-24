@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#1F35FF;
+  color:#9F85C1;
   margin:0 0 20px;
 }
 
@@ -27,23 +27,23 @@ h1 {
 }
 
 h2 {
-  color:#475AFF;
+  color:#9577BB;
 }
 h3 {
-  color: #707EFF
+  color: #8A6AB4
 }
 
 h4, h5, h6 {
-  color:#8591FF;
+  color:#7F5CAD;
 }
 
 a {
-  color:#E00022;
+  color:#7F2CCB;
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:#E90C2A;
+  color:#9147D7;
   font-weight: bold;
 }
 
@@ -73,7 +73,8 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#8DFF70;
+  color:#A568DE;
+  font-weight: 600;
 }
 
 pre {
