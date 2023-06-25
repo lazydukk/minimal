@@ -1,16 +1,17 @@
 @import "fonts";
 @import "rouge-github";
+@import "mocha";
 
 body {
-  background-color: #0b0b18;
+  background: linear-gradient(180deg, $crust 0%, $mantle 100%);
   padding:50px;
   font: 14px/1.5 "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#D3F3EE;
+  color: $text;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#9F85C1;
+  color: $teal;
   margin:0 0 20px;
 }
 
@@ -27,23 +28,32 @@ h1 {
 }
 
 h2 {
-  color:#9577BB;
+  color: $sky;
 }
 h3 {
-  color: #8A6AB4
+  color: $blue;
 }
 
 h4, h5, h6 {
-  color:#7F5CAD;
+  color: $lavender;
 }
-
+p {
+  color: $subtext0;
+}
 a {
-  color:#7F2CCB;
+  color: $green;
   text-decoration:none;
 }
 
+.a-blue {
+  font-size: larger;
+  font-weight: 900;
+  color: $green;
+  text-shadow: 1px 1px 30px $overlay0;
+}
+
 a:hover, a:focus {
-  color:#9147D7;
+  color: $yellow;
   font-weight: bold;
 }
 
@@ -64,7 +74,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left:3.5px solid #5757B2;
+  border-left:3.5px solid $mauve;
   margin:0;
   padding:0 0 0 20px;
   font-family: 'Roboto Mono', monospace;
@@ -73,21 +83,21 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#A568DE;
+  color: $peach;
   font-weight: 600;
 }
 
 pre {
   padding:8px 15px;
-  background: #0B0B18;
-  background-color: #2D2D62;
+  background: $base;
+  background-color: $surface2;
   border-radius:5px;
-  border:1px solid #0B0B18;
+  border:1px solid $base;
   overflow-x: auto;
 }
 
 .highlight {
-  background-color: #202046;
+  background-color: $base;
   border-radius: 10px;
   border-style: none;
 }
@@ -99,17 +109,17 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1.5px solid #2D2D62;
+  border-bottom: 1px solid $surface0;
   border-radius: 50px;
 }
 
 dt {
-  color:#9D9DD2;
+  color: $subtext0;
   font-weight:700;
 }
 
 th {
-  color:#9D9DD2;
+  color: $subtext0;
 }
 
 img {
@@ -174,7 +184,7 @@ ul.downloads {
 }
 
 .downloads a:hover, .downloads a:focus {
-  color:#675C5C;
+  color: $surface0;
   font-weight:bold;
 }
 
@@ -183,7 +193,7 @@ ul.downloads {
 }
 
 strong {
-  color:#5757B2;
+  color: $red;
   font-weight:700;
 }
 
@@ -195,7 +205,7 @@ strong {
 .downloads a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color: $base;
 }
 
 section {
@@ -210,7 +220,7 @@ small {
 
 hr {
   border:0;
-  background:#333371;
+  background: $surface1;
   height:2px;
   border-radius: 50px;
   margin:0 0 20px;
