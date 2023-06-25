@@ -59,13 +59,13 @@ a:hover, a:focus {
 
 a small {
   font-size:11px;
-  color:#E00022;
+  color: $rosewater;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#E00022;
+  color: $flamingo;
 }
 
 .wrapper {
